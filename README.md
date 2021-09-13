@@ -1,4 +1,4 @@
-# ProjetRes0
+# ProjetReseau
 
 
 ATTENTION OUVRIR LE GESTIONNAIRE AVANT LE DIFFUSEUR SINON LE DIFFUSEUR NE PREND PAS EN COMPTE LE GESTIONNAIRE
@@ -20,13 +20,17 @@ Et un MakeFile qui gere les fichiers C et JAVA
 
 Nous avons décidé comme extension de faire le Gestionnaire en JAVA et d'assurer la connexion entre le Diffuseur en C et le Gestionnaire en Java.
 
-MARCHE À SUIVRE:
+## MARCHE À SUIVRE:
 
-make
-java Gestionnaire <PORT> //ex: 5555
-./Diffuseur
-./Utilisateur
-./clientmulti //permet d'afficher les message multi diffusés
+> make
+
+>java Gestionnaire < Insérer PORT> //ex: 5555
+  
+>./Diffuseur
+  
+>./Utilisateur
+  
+>./clientmulti //permet d'afficher les message multi diffusés
 
 
 
